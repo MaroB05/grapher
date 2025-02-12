@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "fileio.h"
+#include "defs.h"
 
 // [len, x1, y1, x2, y2, ...]
 	//^
@@ -13,11 +13,6 @@ int power(int base, int p){
     out *= base;
   return out;
 }
-
-struct point{
-  int x;
-  int y;
-};
 
 int main(int argc, char* argv[]){
   
